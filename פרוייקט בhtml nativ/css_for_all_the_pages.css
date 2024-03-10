@@ -1,0 +1,64 @@
+/* הגדרות אלו נוגעות לכל עמודי האתר */
+body{
+    direction: rtl;
+    font-family: system-ui;
+    color: rgba(25,24,24,.788235294117647);
+    margin: 0px;
+}
+/* classes */
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgba(25,24,24,.78823529411764);
+}
+.white_text{
+    color:white;
+}
+.red_text{
+    color: #cd2033;
+}
+.center{
+    text-align: center
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.text_blue{
+    color: #216896;
+}
+.text_orange{
+   color: orange;
+}
+.text_green{
+    color: #4cb95b;
+}
+ul{
+    list-style-type: none;
+}
+.background_dark_grey{
+    background-color: rgba(25,24,24,.788235294117647);
+}
+.background_white{
+    background-color: white;
+}
+.background_red{
+    background-color: #cd2033;
+}
+.background_grey{
+    background-color: rgb(206, 209, 210);
+}
+.background_light_grey{
+   background-color: rgb(233 234 235);
+}
+.text_grey{
+    color: rgba(25,24,24,.788235294117647);
+}
+.text_light_grey{
+    color: #6b6868;
+}
+.background_light_blue{
+    background-color:  #eaf0f4;
+}

@@ -1,0 +1,118 @@
+#simple_quick_to_get_support{
+    background-image:url(./assets/הורדה\ \(16\).jpg);
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 26.5vh;
+    font-size: 23px;
+    margin-top: 12vh;
+}
+#simple_quick_to_get_support>h3{
+    font-weight: 400;
+    margin-top: 0px;
+}
+#simple_quick_to_get_support>h2{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    
+}
+#title_on_the_pictures>h4{
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+#z_index_2{
+    top: 400px;
+    margin-top: 2vh;
+}
+.flex{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    align-content: space-between;
+}
+#pictures_to_choose_department{
+    display: block;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.flex>img{
+    margin: 2px;
+    margin-top: 30px;
+    width:280px;
+}
+.flex>span{
+    width: 280px;
+    height: 216px;
+    margin: 2px;
+}
+.flex>span>span{
+    background-color: red;
+    border-radius: 12px;
+    padding: 5px;
+    padding-top: 1px;
+    display: inline-block;
+    width: 200px;
+    margin-top: 120px;
+}
+/* img:hover{
+    opacity: 0;
+} */
+/* #z_index_1>img:hover{
+    opacity: 0;
+} */
+#futer_gray{
+    display: flex;
+}
+#span1{
+    background-image: url(./assets/הורדה\ \(28\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span1:hover{
+    background-image: url(./assets/הורדה\ \(34\).png);
+}
+#span2{
+    background-image: url(./assets/הורדה\ \(29\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span2:hover{
+    background-image: url(./assets/הורדה\ \(35\).png);
+}
+#span3{
+    background-image: url(./assets/הורדה\ \(30\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span3:hover{
+    background-image: url(./assets/הורדה\ \(36\).png);
+}
+#span4{
+    background-image: url(./assets/הורדה\ \(31\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span4:hover{
+    background-image: url(./assets/הורדה\ \(37\).png);
+}
+#span5{
+    background-image: url(./assets/הורדה\ \(32\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span5:hover{
+    background-image: url(./assets/הורדה\ \(38\).png);
+}
+#span6{
+    background-image: url(./assets/הורדה\ \(33\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#span6:hover{
+    background-image: url(./assets/הורדה\ \(39\).png);
+}
+

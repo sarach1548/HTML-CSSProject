@@ -1,0 +1,62 @@
+#title_h1{
+    background-image: url(./assets/הורדה\ \(17\).jpg);
+    margin-top: 12vh;
+    padding: 3% 0%;
+    text-align: center;
+    font-size: 57px;
+    margin-bottom:  10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 15% 1% 0;    /* justify-content: space-evenly; */
+}
+.icon{
+    width: 65px;
+    height: 65px;
+}
+.img_s{
+    width: 80px;
+    height: 80px;
+}
+.icon_text{
+    padding: 0px 15px;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 20vw;
+}
+.icon_text2{
+    padding: 0px 15px;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 30vw;
+}
+.rows{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    margin: 0px 0px 10px;
+    font-size: 21px;
+}
+h6{
+    margin: 0px 0px 10px;
+    font-size: 17px;
+}
+i{
+    padding-left: 12px;
+    font-size: 27px;
+    padding-inline-start: 0px ;
+}
+ul{
+    padding-inline-start: 0px ;
+}
+.row{
+    display: flex;
+}
+#list>i{
+    font-size: 50px !important;
+}
+

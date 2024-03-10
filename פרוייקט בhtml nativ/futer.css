@@ -1,0 +1,38 @@
+#response_adress{
+    display: flex;    
+    flex-direction: column;
+    padding: 2%;
+    font-size: 30px;
+}
+#response_adress>#smal{
+    font-size: 20px;
+}
+#futer_gray{
+    display: inline-flex;
+    flex-direction: column;   
+    padding-top: 2%;  
+    width: 100%;
+}
+#futer_gray>h1{
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+#futer_gray>h4{
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+#futer_gray>h6{
+    font-size: 20px;
+    margin: 0 0 0 0;
+   
+}
+#futer_ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#futer_ul>li>a{
+    color: white !important;
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,134 @@
+/* הגדרות אלו נוגעות לעמוד: אודות */
+
+/*ה- div של הכותרת: אודותינו */
+    #title{
+    background-image:url(./assets/הורדה\ \(18\).jpg) ;
+    background-size: cover;
+    height: 249px;
+    margin-top: 12vh;
+    }
+    #title>h1{
+    position: relative;
+    top:25%;
+    font-size :78px;   
+    }
+ /* ה-Div של: סוללים נתיב להצלחה */
+   
+  
+ /* ה-Div של: עושים היסטוריה  */
+    #doing_history{
+      background-color: #216896;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    #doing_history>#div_pathing>img{
+        padding:15px;
+        height: 580px;
+         width: 430px;
+        
+    } 
+    #doing_history>#p_doing_history>p>span{
+        display: block;
+    }
+    #p_doing_history{
+        width: 35%;
+        display: block;
+        font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    } 
+    #div_pathing{
+        width: 430px;
+        margin: 0 15px;
+        display: flex;
+        justify-content: center;
+        padding-right: 13vw;
+    }
+ /* ה-Div של: ה מיוחד בנתיב שלנו  */
+    #what_special_in_our_nativ{
+        width: 50%;
+        margin-right: 25%;
+        font-size: 24px;
+        text-align: justify;
+    }
+    #what_special_in_our_nativ>p{
+        margin-bottom: 2px;
+
+    }
+    #doing_history>#div_pathing>img{
+        animation-name: img1_an;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes img1_an {
+        0%{
+            opacity: 0;
+            width: 0;
+            height: 150px;
+        }
+        100%{
+            opacity: 1;
+            height: 580px;
+             width: 430px;
+        }
+    }
+    #personal_nativ_for_all_castomer>img{
+        padding: 0 15px;
+        margin: 7% 0%;
+        height: 70%;
+    }
+    #p_personal_nativ_for_all_castomer>p{
+        margin: 0px;
+        font-size: 24px;
+    line-height: 39px;
+        text-align: justify;
+
+    }
+    #p_personal_nativ_for_all_castomer>h2{
+        margin: 0px;
+    }
+    #p_personal_nativ_for_all_castomer{
+        padding: 4% 0 0 13%;
+    }
+    #al{
+        padding-top: 5%;
+        flex: 0 0 100%;
+        width: 90%;
+        margin-left: -50px;
+
+    }
+    #alwais_here_for_you{
+        border-radius: 30px;
+        padding: 5%;
+        border: 3px solid #cd2033;
+        border-left: none;
+        font-size: 24px;
+        line-height: 39px;
+        position: relative;
+        /* margin-right: 55px; */
+      
+       
+    }
+    #al>#div_alwayes>img{
+        z-index: 2;
+        position: absolute;
+    }
+    #div_alwayes{
+        margin-right: 100px;
+        display: flex;
+        justify-content: end;
+    }
+    #alwais_here_for_you>h2{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    ul>li>h3{
+        margin: 0;
+    }

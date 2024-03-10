@@ -1,0 +1,103 @@
+body{
+    background-color: #efefef;
+}
+#nativ_join{
+    margin-top: 12vh;
+    position: relative;
+}
+/* #text_img_join{
+    margin-top: 300px;
+} */
+#text_join{
+    z-index: 4;
+    position: absolute;
+    margin-top: 270px;
+    margin-right: 100px;
+    font-size: 25px;
+}
+#text_img_join>#img_join>img{
+    z-index: 6;
+    position: absolute;
+   margin-right: 0;
+    margin-top: 402px;
+}
+#box_form{
+    z-index: 8;
+    position: absolute;
+    display: block;
+    width: 100vw;
+}
+#form{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    font-size: 16px;
+    width: 20vw;
+    padding: 24px 60px;
+    margin-top: 7%;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+    border-radius: 12px;
+}
+form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.input1{
+    width: 100%;
+    border: none;
+    height: 30px;
+}
+label{
+    display: inline;
+}
+#text_top_form>h5{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 27px;
+}
+#text_down_form{
+    margin: 15px 0 15px 0 ;
+    font-size: 28px;
+    font-weight: 500;
+}
+#mail>label{
+    margin-left: 120px;
+}
+#name>label{
+    margin-left: 120px;
+}
+#tel>label{
+    margin-left: 65px;
+}
+/*  */
+#button{
+    border: none;
+    border-radius: 25px;
+    height: 51px;
+    width: 25vw;
+    /* width: 200px; */
+}
+#button:hover{
+    background-color: #d75865ef;
+}
+#button>span{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#but{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
